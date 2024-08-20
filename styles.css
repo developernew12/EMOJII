@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bowlby One", sans-serif;
+}
+#spancolor{
+    color: rgb(64, 53, 105);
+}
+body{
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    font-family: "Bowlby One", sans-serif;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+#search-form{
+    text-align: center;
+}
+#search-form input{
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 10px;
+}
+.results-container .emoji{
+    width: 35px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.results-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    margin: 10px 10px 10px 10px;
+}
+#category-buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+#category-buttons button{
+    padding: 7px;
+    border: 3px solid black;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+}
+#category-buttons button:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+@media (max-width: 480px) {
+    #category-buttons button {
+        padding: 4px;
+        font-size: 10px; 
+        border-radius: 5px;
+    }
+}
